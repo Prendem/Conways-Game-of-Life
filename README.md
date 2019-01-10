@@ -1,5 +1,5 @@
 # Conways-Game-of-Life
-Conway's gane of life was devised in 1970 by mathematician John Conway. It is a "zero-player game" where the user specifies the innitial 
+Conway's game of life was devised in 1970 by mathematician John Conway. It is a "zero-player game" where the user specifies the initial 
 conditions and a simulation is left to run according to a series of rules. The user is presented with a grid of cells and specifies which
 cells will begin as "alive" represented here by a "0", with "dead" cells represented by a ".", once the simulation starts the grid is 
 updated every generation according to the following rules:
