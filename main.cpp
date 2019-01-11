@@ -54,7 +54,7 @@ int main()
 		for (int y{ 24 }; y > -1; --y)
 			for (int x{ 0 }; x < 25; ++x)
 			{
-				grid[x][y].itterateGeneration(grid);
+				grid[x][y].iterateGeneration(grid);
 			}
 		
 		for (int y{ 24 }; y > -1; --y)
