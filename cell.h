@@ -12,7 +12,7 @@ public:
 	bool m_changestate;
 	Cell();
 	friend std::ostream& operator<<(std::ostream &out, const Cell &cell);
-	void itterateGeneration(Cell(&array)[25][25]);
+	void iterateGeneration(Cell(&array)[25][25]);
 	void changeState();
 	void passCoords(int x, int y);
 };
