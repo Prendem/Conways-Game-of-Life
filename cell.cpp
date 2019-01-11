@@ -15,7 +15,7 @@ std::ostream& operator<<(std::ostream &out, const Cell &cell)
 	return out;
 }
 
-void Cell::itterateGeneration(Cell(&array)[25][25])
+void Cell::iterateGeneration(Cell(&array)[25][25])
 {
 	int livingneighbours{ 0 };
 	if (m_x > 0 && array[m_x - 1][m_y].m_alive)
