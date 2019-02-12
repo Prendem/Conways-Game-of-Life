@@ -66,6 +66,7 @@ int main()
 		++generation;
 		
 		Sleep(500);
+		system("cls");
 		for (int y{ 24 }; y > -1; --y)
 		{
 			for (int x{ 0 }; x < 25; ++x)
@@ -73,7 +74,7 @@ int main()
 			std::cout << "\n";
 		}
 
-		std::cout << "Generation: " << generation << "\n\n\n\n";
+		std::cout << "Generation: " << generation;
 
 	}
 			
